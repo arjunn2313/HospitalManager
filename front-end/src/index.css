@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+ img{
+    height: 400px;
+    width: 400px;
+ }
+ .tableimage{
+  width: 100px;
+  height: 90px;
+ }
+ .login-form{
+  width: 40%;
+  height: 350px;
+  margin: 10% auto;
+  background-color: white;
+
+ }
+ .register-container{
+  width: 50%;
+  height: 450px;
+  margin: 8% auto;
+  background-color: white;
+ }
+ ul li{
+   list-style: none;
+ }
+ .navigation{
+  display: flex;
+  justify-content :space-evenly;
+align-items: center;
+font-size: 20px;
+ 
+ }
+ .navbar{
+  background-color:#000000;
+ }
+ .nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+ }
+  .nav-link:active,.nav-link:focus,
+  .nav-link:hover {
+    color: rgb(58, 243, 11);
+  }
+  .header{
+    font-size: 30px;
+    font-weight: 800;
+    color: #2c3e50;
+ 
+  }
+  #view{
+    
+    font-size: 35px;
+    border-radius: 50%;
+    color: white;
+  }
+  .admin{
+    color:aqua;
+    font-weight:900;
+  }
+  .profile{
+    width: 90%;
+    height: 86vh;
+    margin: 10px auto;
+  }
+  .profile h1{
+    font-weight: 800;
+  }
+  .profile-img{
+    height: 250px;
+    width: 300px;
+  }
+  .profile-table{
+    height: 65vh;
+    width: 85%;
+    margin: 10px auto;
+  }
+  .profile-table th{
+    font-size: 18px;
+  }
+  .profile-table td{
+    font-size: 18px;
+  }
+  .profile-edit-modal{
+    max-width: 700px;
+  }
+  .Head-card{
+    width: 95%;
+    margin: 15px auto;
+  }
+  .Head-card img{
+    width: 250px;
+    height: 200px;
+  }
+  /* #department{
+    width: 100%;
+  } */
+  .department-card{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
